@@ -58,15 +58,50 @@
   height: 50px;
 }
 .sign-up-text{
-    margin: 0 20px;
     display:flex;
     justify-content: center;
     align-items: center;
-    font-size: 16px;
+    font-size: 15px;
     font-family: "Strait", sans-serif;
-    margin-left: 70px !important;
+    margin: 0 60px;
 }
 .link-text{
     margin-left: 5px;
 }
 //login-form-main-area//  
+
+//responsive-part//
+@media(max-width:320px){
+    .login-form-section{
+      margin: 0 20px;
+      width: 100%;
+    }
+}
+
+@media(max-width:320px){
+    .form-control{
+       width: 230px;
+       margin: 0 20px;
+    }
+}
+@media(max-width:320px){
+    .btn.btn-primary{
+        width: 230px;
+    }
+}
+@media(max-width:320px){
+    .login-form-main{
+        width: 100% !important;
+        text-align: center !important;
+}
+}
+@media(max-width:320px){
+    .sign-up-text{
+        font-size: 11px;
+       
+    }
+    .link-text{
+        font-size: 11px;
+    }
+}
+// end of resposive part//
