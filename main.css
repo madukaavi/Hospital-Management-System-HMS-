@@ -103,4 +103,37 @@
   .link-text {
     font-size: 10px;
   }
-}/*# sourceMappingURL=main.css.map */
+}
+
+@media (max-width: 375px) {
+  .login-form-section {
+    margin: 0 20px;
+    width: 100%;
+  }
+}
+@media (max-width: 375px) {
+  .form-control {
+    width: 270px;
+    margin: 0 20px;
+  }
+}
+@media (max-width: 375px) {
+  .btn.btn-primary {
+    width: 270px;
+  }
+}
+@media (max-width: 375px) {
+  .login-form-main {
+    width: 100% !important;
+    text-align: center !important;
+    
+  }
+}
+@media (max-width: 375px) {
+  .sign-up-text {
+    font-size: 13px;
+  }
+  .link-text {
+    font-size: 13px;
+  }
+}
