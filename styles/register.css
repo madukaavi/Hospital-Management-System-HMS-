@@ -47,4 +47,17 @@
 .Form-input-area {
   border: 1px solid red;
   height: 100%;
+}
+
+.email-area {
+  padding: 0 20px;
+}
+
+.form-label {
+  font-family: "Strait", sans-serif;
+}
+
+.form-control {
+  border-radius: 0;
+  height: 40px;
 }/*# sourceMappingURL=register.css.map */
